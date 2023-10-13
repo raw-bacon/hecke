@@ -1,7 +1,7 @@
 # About this repository
 This repository consists of a basic implementation of the Hecke algebra with a focus on its relation to the HOMFLY polynomial, which is in the file `hecke.sage`, as well as the proof of Proposition 4.6 in my PHD thesis, which asserts the following.
 
-*Proposition 4.6.*
+**Proposition 4.6.**
 1. $P_{T(3, 3\ell+1)}(v, \sqrt{-3}) = (\ell v^4 + \ell v^2 + (\ell + 1)) v^{6 \ell}$,
 2. $P_{T(4, 8\ell+1)}(v, \sqrt{-2}) = (2 \ell v^6 + 2 \ell v^4 + 2 \ell v^2 + (2 \ell + 1)) v^{24 \ell}$,
 3. $P_{T(6, 36 \ell + 1)}(v, \sqrt{-1}) = (6 \ell v^{10} + 6 \ell v^8 + 6 \ell v^4 + 6 \ell v^2 + (6 \ell + 1))v^{180\ell}$.
@@ -36,7 +36,7 @@ the `v`-variable, as it can be recovered just from the length of the braid
 that defined `eta`,
 see Proposition 4.9 in my thesis, which asserts the following.
 
-*Proposition 4.9.* _Let $\eta = \omega(\beta) \in H_n$ be in the image of $\omega$. Then the coefficients of $\eta$ are all of the form $\pi_g(\eta) = \eta_g(z)v^{d(\beta) - \ell(g)}$ for some Laurent polynomial $\eta_g \in \mathbb{Z}[z^{\pm 1}]$. Here, $d \colon B_n \to \mathbb{Z}$ is the homomorphism sending the generator $\sigma_i$ to $1$ for all $i$, and $\ell \colon S_n \to \mathbb{N}$ is the length function._
+**Proposition 4.9.** _Let_ $\eta = \omega(\beta) \in H_n$ _be in the image of_ $\omega$. _Then the coefficients of_ $\eta$ _are all of the form_ $\pi_g(\eta) = \eta_g(z)v^{d(\beta) - \ell(g)}$ _for some Laurent polynomial_ $\eta_g \in \mathbb{Z}[z^{\pm 1}]$. _Here,_ $d \colon B_n \to \mathbb{Z}$ _is the homomorphism sending the generator_ $\sigma_i$ _to_ $1$ _for all_ $i$, _and_ $\ell \colon S_n \to \mathbb{N}$ _is the length function._
 
 This length is stored as `eta.degree`.
 This can be relevant when adding `BraidHeckeAlgebraElement`s,
